@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>始终飞向鼠标的小飞机</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="plane">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </div>
+    <div id="show">
+
+    </div>
+
+    <script type="text/javascript">
+        let plane = document.getElementById('plane');
+        let deg = 0, ex = 0, ey = 0, vx = 0, vy = 0, count = 0;
+        let x = 0, y = 0;
+        let show = document.getElementById('show');
+        window.addEventListener('mousemove', (e)=> {
+            x = e.x;
+            y = e.y;
+            // 修正，让鼠标最后停在小飞机正中间
+            ex = e.x - plane.offsetLeft - plane.clientWidth / 2;
+            ey = e.y - plane.offsetTop - plane.clientHeight / 2;
+            // 让飞机会拐弯
+            deg = 360 * Math.atan(ey / ex) / (2 * Math.PI) + 45;
+            // 如果是向左转，让小飞机立刻掉头
+            if (ex < 0){
+                deg += 180;
+            }
+            count = 0;
+        })
+
+        function draw() {
+            plane.style.transform = 'rotate(' + deg + 'deg)';
+            // 控制飞机的运动速度，将偏移量等分为n份（这里为100），如果调得更小则飞机更快
+            if (count < 100){
+                vx += ex / 100;
+                vy += ey / 100;
+            }
+            show.innerHTML = `
+                x = ${x} y = ${y}
+                ex = ${ex} ey = ${ey}
+                offsetLeft = ${plane.offsetLeft}
+                offsetTop = ${plane.offsetTop}
+                clientHeight = ${plane.clientHeight}
+                clientWidth = ${plane.clientWidth}
+            `;
+            plane.style.left = vx + 'px';
+            plane.style.top = vy + 'px';
+            count++;
+        }
+
+        setInterval(draw, 1)
+    </script>
+</body>
+</html>

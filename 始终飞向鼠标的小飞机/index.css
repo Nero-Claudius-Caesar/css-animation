@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(200deg, #005bea, #00cbf6);
+}
+#plane {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#show {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+}
