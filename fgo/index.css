@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("./pic/bg.png");
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+    background: url("./pic/bg_grd.png");
+    background-size: auto 100%;
+    overflow: hidden;
+}
+.container .role-item {
+    float: left;
+    width: 12.5%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    min-height: 60%;
+}
+.container .role-item .on {
+    margin-left: 180%;
+    animation: fadeIn .7s forwards;
+    opacity: 0;
+}
+.container .role-item:hover .off {
+    animation: fade 2s forwards ease;
+}
+.container .role-item .off .img {
+    position: absolute;
+    transition: all 0.7s ease;
+    width: 100%;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: center;
+}
+.container .role-item .on .img {
+    position: absolute;
+    transition: all 0.7s ease;
+    width: 100%;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: center;
+}
+.container .role-item .off .img:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 36, 99, .7);
+}
+.container .role-item .off .cl {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -71px 0 0 -18px;
+    z-index: 5;
+}
+.container .role-item .on .cl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.container .role-item:hover {
+    width: 36%;
+}
+.container .role-item:hover .off {
+    opacity: 0;
+}
+.container .role-item:hover .on {
+    opacity: 1;
+}
+.current {
+    background: url("./pic/bg_emblem.png") no-repeat center center;
+    background-size: auto 100%;
+    opacity: 1;
+}
+@keyframes fade {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 180%;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        margin-left: 180%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}

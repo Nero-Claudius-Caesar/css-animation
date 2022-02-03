@@ -1,0 +1,48 @@
+.container .role-item.saber .off .img {
+    background-image: url("./pic/img_saber.png");
+}
+.container .role-item.saber .on .img {
+    background-image: url("./pic/img_saber_on.png");
+}
+.container .role-item.archer .off .img {
+    background-image: url("./pic/img_archer.png");
+}
+.container .role-item.archer .on .img {
+    background-image: url("./pic/img_archer_on.png");
+}
+.container .role-item.lancer .off .img {
+    background-image: url("./pic/img_lancer.png");
+}
+.container .role-item.lancer .on .img {
+    background-image: url("./pic/img_lancer_on.png");
+}
+.container .role-item.rider .off .img {
+    background-image: url("./pic/img_rider.png");
+}
+.container .role-item.rider .on .img {
+    background-image: url("./pic/img_rider_on.png");
+}
+.container .role-item.caster .off .img {
+    background-image: url("./pic/img_caster.png");
+}
+.container .role-item.caster .on .img {
+    background-image: url("./pic/img_caster_on.png");
+}
+.container .role-item.assassin .off .img {
+    background-image: url("./pic/img_assassin.png");
+}
+.container .role-item.assassin .on .img {
+    background-image: url("./pic/img_assassin_on.png");
+}
+.container .role-item.berserker .off .img {
+    background-image: url("./pic/img_berserker.png");
+}
+.container .role-item.berserker .on .img {
+    background-image: url("./pic/img_berserker_on.png");
+}
+.container .role-item.extra .off .img {
+    background-image: url("./pic/img_extra.png");
+}
+.container .role-item.extra .on .img {
+    background-image: url("./pic/img_extra_on.png");
+}

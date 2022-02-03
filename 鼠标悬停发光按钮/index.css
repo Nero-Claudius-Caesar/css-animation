@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #555, #000000);
+}
+.container a {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 40px;
+    color: plum;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    /*
+        hue-rotate()是颜色滤镜，可以获得不同的颜色
+        通过calc自动计算属性，以及var函数调用我们给每一个a标签设置的--i属性
+        让1-5这个值去乘以60deg，就会得到不同的颜色
+    */
+    filter: hue-rotate(calc(var(--i)*60deg));
+}
+.container a::before,.container a::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid plum;
+    transition: all 0.3s ease-in-out 0.3s;
+}
+.container a::before {
+    top: 0;
+    left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.container a::after {
+    right: 0;
+    bottom: 0;
+    border-top: 0;
+    border-left: 0;
+}
+.container a:hover {
+    background-color: plum;
+    color: #000;
+    box-shadow: 0 0 50px plum;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    transition-delay: 0.4s;
+}
+.container a:hover::before, .container a:hover::after {
+    width: 138px;
+    height: 58px;
+    transition-delay: 0s;
+}

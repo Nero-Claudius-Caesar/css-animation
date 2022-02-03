@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1250",
+      "name": "其它",
+      "font_class": "qita",
+      "unicode": "f0141",
+      "unicode_decimal": 983361
+    },
+    {
+      "icon_id": "1307",
+      "name": "应用中心",
+      "font_class": "yingyongzhongxin",
+      "unicode": "f017a",
+      "unicode_decimal": 983418
+    },
+    {
+      "icon_id": "36137",
+      "name": "摄像机",
+      "font_class": "shexiangji",
+      "unicode": "f0035",
+      "unicode_decimal": 983093
+    },
+    {
+      "icon_id": "629333",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "715978",
+      "name": "摄像头-线性",
+      "font_class": "shexiangtouxianxing",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1249036",
+      "name": "博士帽1",
+      "font_class": "boshimao1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2076343",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "4893191",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "ec17",
+      "unicode_decimal": 60439
+    },
+    {
+      "icon_id": "7594804",
+      "name": "24gl-fileText",
+      "font_class": "24gl-fileText",
+      "unicode": "eabe",
+      "unicode_decimal": 60094
+    },
+    {
+      "icon_id": "11121494",
+      "name": "控件组",
+      "font_class": "kongjianzu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "11435770",
+      "name": "聊天",
+      "font_class": "liaotian",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}

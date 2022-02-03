@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21tLHIvHwmq8IIzWfSs1CByAsCJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/文字肖像" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="D:\software\ide\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\source\front\demo\文字肖像" />
+      <recent name="D:\data\source\front\demo\玻璃拟态时钟动画" />
+      <recent name="D:\data\source\front\demo\fgo\pic" />
+      <recent name="D:\data\source\front\demo\伸缩侧边栏\avatar" />
+      <recent name="D:\data\source\front\demo\伸缩侧边栏\font" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="" />
+      <created>1638755347042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638755347042</updated>
+      <workItem from="1638755348302" duration="1165000" />
+      <workItem from="1638793394944" duration="7276000" />
+      <workItem from="1638843760257" duration="11236000" />
+      <workItem from="1638874631819" duration="4179000" />
+      <workItem from="1638879328401" duration="2742000" />
+      <workItem from="1638883168826" duration="192000" />
+      <workItem from="1638951439600" duration="1422000" />
+      <workItem from="1638953763380" duration="227000" />
+      <workItem from="1638954514276" duration="1947000" />
+      <workItem from="1640325888455" duration="2050000" />
+      <workItem from="1640339829793" duration="1697000" />
+      <workItem from="1641038716328" duration="21000" />
+      <workItem from="1642849488473" duration="160000" />
+      <workItem from="1642849652853" duration="3472000" />
+      <workItem from="1642905898873" duration="2457000" />
+      <workItem from="1642983537996" duration="4566000" />
+      <workItem from="1643100258594" duration="5401000" />
+      <workItem from="1643193003423" duration="4121000" />
+      <workItem from="1643202650390" duration="4117000" />
+      <workItem from="1643252263166" duration="2822000" />
+      <workItem from="1643287602660" duration="4915000" />
+      <workItem from="1643376412105" duration="1509000" />
+      <workItem from="1643463036863" duration="1337000" />
+      <workItem from="1643504006193" duration="63000" />
+      <workItem from="1643545969848" duration="1813000" />
+      <workItem from="1643608496164" duration="6946000" />
+      <workItem from="1643723781745" duration="2114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="579" y="213" key="#Inspections" timestamp="1642906988382">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="579" y="213" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1642906988382" />
+    <state x="510" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638862964584">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="510" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1638862964584" />
+    <state x="487" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638864033481">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="487" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1638864033481" />
+    <state x="324" y="99" key="SettingsEditor" timestamp="1643609946851">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="259" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638954852849" />
+    <state x="324" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1643609946851" />
+    <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1638954621654">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1638954621654" />
+    <state x="519" y="308" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1638755532482">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="519" y="308" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.864@0.0.1536.864" timestamp="1638755532482" />
+    <state x="518" y="250" key="run.anything.popup" timestamp="1643103984849">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1638875576280" />
+    <state x="518" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1643103984849" />
+    <state x="616" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1643110167506">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1643110167506" />
+  </component>
+</project>

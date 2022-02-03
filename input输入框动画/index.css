@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    /*告诉浏览器：你想要设置的边框和内边距的值是包含在总宽高内的*/
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(200deg, #0c3483, #a2b6df);
+}
+.wrapper {
+    width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.wrapper .input-data {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.wrapper .input-data input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid #c0c0c0;
+}
+.wrapper .input-data input:focus ~ label, .wrapper .input-data input:valid ~ label {
+    transform: translateY(-25px);
+    font-size: 15px;
+    color: #ee5511;
+}
+.wrapper .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #808080;
+    /*使点击label事件穿透到input上   */
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.wrapper .input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #ee5511;
+    transform: scaleX(0);
+    transition: all 0.5s ease;
+}
+.wrapper .input-data input:focus ~ .underline, .wrapper .input-data input:valid ~ .underline {
+    transform: scaleX(1);
+}

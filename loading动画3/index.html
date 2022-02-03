@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Loading Animate</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <p>Loading...</p>
+    </div>
+
+    <script type="text/javascript">
+        let p = document.getElementsByTagName('p')[0];
+        let content = 'Loading';
+        let c1 = 'Loading.';
+        let c2 = 'Loading..';
+        let c3 = 'Loading...';
+        let count = 0;
+        setInterval(()=>{
+            if (count % 3 === 0){
+                p.innerHTML = c1;
+            } else if (count % 3 === 1){
+                p.innerHTML = c2;
+            } else {
+                p.innerHTML = c3;
+            }
+            count++;
+        }, 500)
+    </script>
+</body>
+</html>
