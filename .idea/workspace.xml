@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="- first commit">
-      <change afterPath="$PROJECT_DIR$/始终飞向鼠标的小飞机/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/始终飞向鼠标的小飞机/index.html" afterDir="false" />
+    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="- 增加了飞机始终飞向鼠标的动画">
+      <change afterPath="$PROJECT_DIR$/aniplex/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aniplex/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,8 @@
       <workItem from="1643545969848" duration="1813000" />
       <workItem from="1643608496164" duration="6946000" />
       <workItem from="1643723781745" duration="2114000" />
-      <workItem from="1643890466945" duration="3120000" />
+      <workItem from="1643890466945" duration="3164000" />
+      <workItem from="1643976641153" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1643890685024</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643890685024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- 增加了飞机始终飞向鼠标的动画">
+      <created>1643893649739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643893649739</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +131,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="- first commit" />
+    <MESSAGE value="- 增加了飞机始终飞向鼠标的动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 增加了飞机始终飞向鼠标的动画" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="213" key="#Inspections" timestamp="1642906988382">
@@ -146,10 +156,10 @@
     </state>
     <state x="259" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638954852849" />
     <state x="324" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1643609946851" />
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1643890690743">
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1643893652440">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1643890690743" />
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1643893652440" />
     <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1638954621654">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
