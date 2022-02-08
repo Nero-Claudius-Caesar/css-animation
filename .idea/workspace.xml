@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="更新了富有弹性的导航栏">
-      <change afterPath="$PROJECT_DIR$/浮雕效果的loading动画/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/浮雕效果的loading动画/index.html" afterDir="false" />
+    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="更新了浮雕效果loading动画">
+      <change afterPath="$PROJECT_DIR$/claymorphism list hover effect/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claymorphism list hover effect/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-list.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,8 @@
       <workItem from="1644065310739" duration="160000" />
       <workItem from="1644066304743" duration="303000" />
       <workItem from="1644153407107" duration="2568000" />
-      <workItem from="1644237818774" duration="746000" />
+      <workItem from="1644237818774" duration="879000" />
+      <workItem from="1644321853344" duration="1787000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1643890685024</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644155963064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新了浮雕效果loading动画">
+      <created>1644238693870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644238693870</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +185,8 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="更新了模仿arthas背景的动画&#10;更新了列表文件" />
     <MESSAGE value="更新了富有弹性的导航栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了富有弹性的导航栏" />
+    <MESSAGE value="更新了浮雕效果loading动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了浮雕效果loading动画" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="213" key="#Inspections" timestamp="1642906988382">
@@ -196,10 +206,10 @@
     </state>
     <state x="259" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638954852849" />
     <state x="324" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1643609946851" />
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644155966806">
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644238696495">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644155966806" />
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644238696495" />
     <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1638954621654">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

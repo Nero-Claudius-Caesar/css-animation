@@ -21,3 +21,5 @@
 - 富有弹性的导航栏
 ## 02-07
 - 更新了浮雕效果loading动画
+## 02-08
+- Claymorphism List Hover Effect
