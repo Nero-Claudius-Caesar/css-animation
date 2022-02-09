@@ -10,11 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="更新了浮雕效果loading动画">
-      <change afterPath="$PROJECT_DIR$/claymorphism list hover effect/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/claymorphism list hover effect/index.html" afterDir="false" />
+    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="更新了Claymorphism List Hover Effect">
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/img_archer_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/img_caster_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/img_extra_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/img_saber_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/垂直卡片滑动动画/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-list.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/文字肖像" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/垂直卡片滑动动画" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -55,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\source\front\demo\垂直卡片滑动动画" />
       <recent name="D:\data\source\front\demo\文字肖像" />
       <recent name="D:\data\source\front\demo\玻璃拟态时钟动画" />
       <recent name="D:\data\source\front\demo\fgo\pic" />
       <recent name="D:\data\source\front\demo\伸缩侧边栏\avatar" />
-      <recent name="D:\data\source\front\demo\伸缩侧边栏\font" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -109,7 +113,8 @@
       <workItem from="1644066304743" duration="303000" />
       <workItem from="1644153407107" duration="2568000" />
       <workItem from="1644237818774" duration="879000" />
-      <workItem from="1644321853344" duration="1787000" />
+      <workItem from="1644321853344" duration="1829000" />
+      <workItem from="1644408431323" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1643890685024</created>
@@ -160,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644238693870</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新了Claymorphism List Hover Effect">
+      <created>1644323668995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644323668995</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +198,8 @@
     <MESSAGE value="更新了模仿arthas背景的动画&#10;更新了列表文件" />
     <MESSAGE value="更新了富有弹性的导航栏" />
     <MESSAGE value="更新了浮雕效果loading动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了浮雕效果loading动画" />
+    <MESSAGE value="更新了Claymorphism List Hover Effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了Claymorphism List Hover Effect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="213" key="#Inspections" timestamp="1642906988382">
@@ -206,10 +219,10 @@
     </state>
     <state x="259" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638954852849" />
     <state x="324" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1643609946851" />
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644238696495">
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644323672027">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644238696495" />
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644323672027" />
     <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1638954621654">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
