@@ -21,10 +21,11 @@
 
     <script type="text/javascript">
         let number = document.getElementsByClassName('number')[0];
-        let electricity = 98.0;
-        setInterval(()=>{
-            if(electricity === 100){
-                number.innerHTML = '电量已充满'
+        let electricity = 99.5;
+        let timer = setInterval(()=>{
+            if(electricity.toFixed(2) === '100.00'){
+                number.innerHTML = '已充满'
+                clearInterval(timer);
             }else{
                 electricity += 0.01;
                 number.innerHTML = electricity.toFixed(2) + "%";

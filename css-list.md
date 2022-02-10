@@ -23,3 +23,5 @@
 - 更新了浮雕效果loading动画
 ## 02-08
 - Claymorphism List Hover Effect
+## 02-09
+- 更新了手机充电特效

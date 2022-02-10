@@ -6,6 +6,7 @@
 body {
     height: 100vh;
     background: #000;
+    user-select: none;
 }
 .box {
     width: 800px;
@@ -25,6 +26,7 @@ body {
     left: 50%;
     top: 25%;
     margin-left: -100px;
+    font-weight: 700;
 }
 .contrast {
     width: 100%;
