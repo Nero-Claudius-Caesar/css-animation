@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="更新了手机充电特效">
+    <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="修复电量溢出问题">
+      <change afterPath="$PROJECT_DIR$/文字特效：流光文字/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文字特效：流光文字/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手机充电特效/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/手机充电特效/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/手机充电特效/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/手机充电特效/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +112,8 @@
       <workItem from="1644237818774" duration="879000" />
       <workItem from="1644321853344" duration="1829000" />
       <workItem from="1644408431323" duration="2087000" />
-      <workItem from="1644497320240" duration="2056000" />
+      <workItem from="1644497320240" duration="2112000" />
+      <workItem from="1644581782221" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1643890685024</created>
@@ -183,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644499244404</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修复电量溢出问题">
+      <created>1644499437521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644499437521</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="更新了Claymorphism List Hover Effect" />
     <MESSAGE value="更新了css垂直滑动卡片" />
     <MESSAGE value="更新了手机充电特效" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了手机充电特效" />
+    <MESSAGE value="修复电量溢出问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复电量溢出问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="213" key="#Inspections" timestamp="1642906988382">
@@ -232,10 +242,10 @@
     </state>
     <state x="259" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638954852849" />
     <state x="324" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1643609946851" />
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644499246469">
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2" timestamp="1644499439636">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644499246469" />
+    <state x="545" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1644499439636" />
     <state x="358" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1638954621654">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

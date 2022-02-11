@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="box">
-        <div class="number">0</div>
+        <div class="number"></div>
         <div class="contrast">
             <div class="bubble"></div>
             <div class="bubble"></div>
@@ -21,7 +21,7 @@
 
     <script type="text/javascript">
         let number = document.getElementsByClassName('number')[0];
-        let electricity = 99.5;
+        let electricity = 26.3;
         let timer = setInterval(()=>{
             if(electricity.toFixed(2) === '100.00'){
                 number.innerHTML = '已充满'
