@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100px;
+    background: url("./pic/bg.png");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    height: 60vh;
+    /*background-color: gray;*/
+    background: url("./pic/bg_grd.png");
+}
+
+.item {
+    flex: 1;
+    position: relative;
+    transition: flex 0.5s ease;
+}
+
+.item:hover {
+    flex: 3;
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 36, 99, .7);
+    transition: opacity 0.5s ease;
+}
+
+.item:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./pic/bg_emblem.png") no-repeat center center;
+}
+
+.item:hover::after {
+    opacity: 0;
+}
+
+.item .off, .on > .clazz, .servant {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.saber .off .clazz {
+    background: url("./pic/class_saber.png") no-repeat center center;
+}
+
+.archer .off .clazz {
+    background: url("./pic/class_archer.png") no-repeat center center;
+}
+
+.lancer .off .clazz {
+    background: url("./pic/class_lancer.png") no-repeat center center;
+}
+
+.rider .off .clazz {
+    background: url("./pic/class_rider.png") no-repeat center center;
+}
+
+.caster .off .clazz {
+    background: url("./pic/class_caster.png") no-repeat center center;
+}
+
+.assassin .off .clazz {
+    background: url("./pic/class_assassin.png") no-repeat center center;
+}
+
+.berserker .off .clazz {
+    background: url("./pic/class_berserker.png") no-repeat center center;
+}
+
+.extra .off .clazz {
+    background: url("./pic/class_extra.png") no-repeat center center;
+}
+
+.item:hover > .off {
+    background: none;
+}
+
+.saber:hover > .on .clazz{
+    background: url("./pic/class_saber_on.png") no-repeat top left;
+}
+
+.lancer:hover > .on{
+    background: url("./pic/class_lancer_on.png") no-repeat top left;
+}
+
+.archer:hover > .on{
+    background: url("./pic/class_archer_on.png") no-repeat top left;
+}
+
+.rider:hover > .on{
+    background: url("./pic/class_rider_on.png") no-repeat top left;
+}
+
+.caster:hover > .on{
+    background: url("./pic/class_caster_on.png") no-repeat top left;
+}
+
+.assassin:hover > .on{
+    background: url("./pic/class_assassin_on.png") no-repeat top left;
+}
+
+.berserker:hover > .on{
+    background: url("./pic/class_berserker_on.png") no-repeat top left;
+}
+
+.extra:hover > .on{
+    background: url("./pic/class_extra_on.png") no-repeat top left;
+}
+
