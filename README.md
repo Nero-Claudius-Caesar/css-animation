@@ -12,7 +12,7 @@
 Personally collected or replicated CSS effects that I feel are quite good
 
 ## Prerequisite explanation
-I am not a professional front-end development engineer, but due to my interests, the standardization and reliability of the code may not be very good. Please understand
+I am not a professional front-end development engineer, the standardization and reliability of the code may not be very good. Please understand
 
 ## e.g.
 example:
