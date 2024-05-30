@@ -1,15 +1,19 @@
-# 每天一个CSS小案例
-## 介绍
-我个人是后端开发工程师，但是很向往前端的世界。通过代码就可以实现动画、特效，这对我来说无疑是很有吸引力的。在每日后端的无聊学习中，
-我每天在youtube或者b站寻找一些有趣的特效，进行抄录。从而形成了今天这个特效库。虽说是特效库，但是截止到今天（2022-02-04），
-这个库里仅仅存在17个特效，但是我相信，未来有一天，这个数字一定会增加。同时特效的种类也会更多。另外我也相信，未来的某一天，这里将
-不再全是摘抄的库，而是一个由我自己创建，自己思考，自己实现的充满我的艺术的特效。不断学习，不断思考，未来的某一天，我会再次回到这里，
-回到README，在文件的最后填上：这是由nero claudius收录的css动画与特效
-## 特效列表
-暂时存在如下种类特效:  
-- 背景类
-- 加载动画类
-- 菜单栏类
-- 鼠标动画类
-- 基础控件动画类
-- 其他
+# CSS-ANIMATION
+## 简介
+个人收集或照着原型网站复刻的一些看起来还不错的效果
+## 叠甲
+个人不是前端开发工程师, 主要干Java的, 比较喜欢前端, 做着玩的
+## e.g.
+效果图
+![效果图](./效果图.png)
+
+# CSS-ANIMATION
+## Introduce
+Personally collected or replicated CSS effects that I feel are quite good
+
+## Prerequisite explanation
+I am not a professional front-end development engineer, but due to my interests, the standardization and reliability of the code may not be very good. Please understand
+
+## e.g.
+example:
+![效果图](./效果图.png)
