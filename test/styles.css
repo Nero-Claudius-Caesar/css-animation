@@ -1,0 +1,23 @@
+/* styles.css */
+.image-container {
+    position: relative;
+    width: 300px;  /* Adjust based on your image size */
+    height: 200px;  /* Adjust based on your image size */
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.old {
+    transform: translateX(0);
+}
+
+.new {
+    transform: translateX(100%);
+}

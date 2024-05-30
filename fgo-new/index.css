@@ -8,6 +8,7 @@ body {
     width: 100vw;
     height: 100px;
     background: url("./pic/bg.png");
+    min-width: 100vw;
 }
 
 .container {
@@ -17,7 +18,6 @@ body {
     top: 20vh;
     width: 100%;
     height: 60vh;
-    /*background-color: gray;*/
     background: url("./pic/bg_grd.png");
 }
 
@@ -25,6 +25,7 @@ body {
     flex: 1;
     position: relative;
     transition: flex 0.5s ease;
+    overflow: hidden;
 }
 
 .item:hover {
@@ -56,7 +57,29 @@ body {
     opacity: 0;
 }
 
-.item .off, .on > .clazz, .servant {
+.item:hover > .off > .servant {
+    left: 100%;
+    background-position: 0 100%;
+}
+
+.item:hover > .on > .servant {
+    right: 100%;
+    background-position: 100% 0;
+}
+
+.item .off .on {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.clazz {
+    z-index: 9999;
+}
+
+.clazz, .servant {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -68,32 +91,72 @@ body {
     background: url("./pic/class_saber.png") no-repeat center center;
 }
 
+.saber .off .servant {
+    background: url("./pic/img_saber.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
+}
+
 .archer .off .clazz {
     background: url("./pic/class_archer.png") no-repeat center center;
+}
+
+.archer .off .servant {
+    background: url("./pic/img_archer.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
 }
 
 .lancer .off .clazz {
     background: url("./pic/class_lancer.png") no-repeat center center;
 }
 
+.lancer .off .servant {
+    background: url("./pic/img_lancer.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
+}
+
 .rider .off .clazz {
     background: url("./pic/class_rider.png") no-repeat center center;
+}
+
+.rider .off .servant {
+    background: url("./pic/img_rider.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
 }
 
 .caster .off .clazz {
     background: url("./pic/class_caster.png") no-repeat center center;
 }
 
+.caster .off .servant {
+    background: url("./pic/img_caster.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
+}
+
 .assassin .off .clazz {
     background: url("./pic/class_assassin.png") no-repeat center center;
+}
+
+.assassin .off .servant {
+    background: url("./pic/img_assassin.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
 }
 
 .berserker .off .clazz {
     background: url("./pic/class_berserker.png") no-repeat center center;
 }
 
+.berserker .off .servant {
+    background: url("./pic/img_berserker.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
+}
+
 .extra .off .clazz {
     background: url("./pic/class_extra.png") no-repeat center center;
+}
+
+.extra .off .servant {
+    background: url("./pic/img_extra.png") no-repeat center center;
+    transition: left 1s ease, background-position 1s ease;
 }
 
 .item:hover > .off {
@@ -104,31 +167,103 @@ body {
     background: url("./pic/class_saber_on.png") no-repeat top left;
 }
 
-.lancer:hover > .on{
+.saber:hover > .on .servant {
+    background: url("./pic/img_saber_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.lancer:hover > .on .clazz{
     background: url("./pic/class_lancer_on.png") no-repeat top left;
 }
 
-.archer:hover > .on{
+.lancer:hover > .on .servant {
+    background: url("./pic/img_lancer_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.archer:hover > .on .clazz{
     background: url("./pic/class_archer_on.png") no-repeat top left;
 }
 
-.rider:hover > .on{
+.archer:hover > .on .servant {
+    background: url("./pic/img_archer_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.rider:hover > .on .clazz{
     background: url("./pic/class_rider_on.png") no-repeat top left;
 }
 
-.caster:hover > .on{
+.rider:hover > .on .servant {
+    background: url("./pic/img_rider_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.caster:hover > .on .clazz{
     background: url("./pic/class_caster_on.png") no-repeat top left;
 }
 
-.assassin:hover > .on{
+.caster:hover > .on .servant {
+    background: url("./pic/img_caster_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.assassin:hover > .on .clazz{
     background: url("./pic/class_assassin_on.png") no-repeat top left;
 }
 
-.berserker:hover > .on{
+.assassin:hover > .on .servant {
+    background: url("./pic/img_assassin_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.berserker:hover > .on .clazz{
     background: url("./pic/class_berserker_on.png") no-repeat top left;
 }
 
-.extra:hover > .on{
+.berserker:hover > .on .servant {
+    background: url("./pic/img_berserker_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.extra:hover > .on .clazz{
     background: url("./pic/class_extra_on.png") no-repeat top left;
+}
+
+.extra:hover > .on .servant {
+    background: url("./pic/img_extra_on.png") no-repeat center center;
+    transition: right .5s ease, background-position 1s ease;
+}
+
+.saber:hover > .off .clazz{
+    background: none;
+}
+
+.lancer:hover > .off .clazz{
+    background: none;
+}
+
+.archer:hover > .off .clazz{
+    background: none;
+}
+
+.rider:hover > .off .clazz{
+    background: none;
+}
+
+.caster:hover > .off .clazz{
+    background: none;
+}
+
+.assassin:hover > .off .clazz{
+    background: none;
+}
+
+.berserker:hover > .off .clazz{
+    background: none;
+}
+
+.extra:hover > .off .clazz{
+    background: none;
 }
 

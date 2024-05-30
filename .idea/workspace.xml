@@ -14,45 +14,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18cdbb0b-3e5f-4892-b237-003acfbc7388" name="Default Changelist" comment="Css实现流光文字">
-      <change afterPath="$PROJECT_DIR$/fgo-new/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/bg_emblem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/bg_grd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_archer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_archer_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_assassin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_assassin_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_berserker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_berserker_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_caster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_caster_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_extra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_extra_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_lancer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_lancer_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_rider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_rider_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_saber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/class_saber_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_archer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_archer_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_assassin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_assassin_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_berserker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_berserker_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_caster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_caster_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_extra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_extra_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_lancer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_lancer_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_rider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_rider_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_saber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_saber_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_assassin _on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fgo-new/pic/img_lancer _on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/img_saber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/img_saber_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_archer.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_archer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_archer_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_archer_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_assassin.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_assassin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_berserker.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_berserker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_berserker_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_berserker_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_caster.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_caster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_caster_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_caster_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_lancer.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_lancer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_rider.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_rider.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fgo-new/pic/img_rider_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/fgo-new/pic/img_rider_on.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +52,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="21tLHIvHwmq8IIzWfSs1CByAsCJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,7 +68,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/data/source/front/css-animation/fgo-new",
+    "last_opened_file_path": "C:/source/front/css-animation/fgo-new/pic",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\source\front\css-animation\fgo-new\pic" />
       <recent name="C:\data\source\front\css-animation\fgo-new" />
       <recent name="D:\data\source\front\demo\css-list" />
       <recent name="D:\data\source\front\demo\垂直卡片滑动动画" />
       <recent name="D:\data\source\front\demo\文字肖像" />
-      <recent name="D:\data\source\front\demo\玻璃拟态时钟动画" />
     </key>
   </component>
   <component name="SharedIndexes">
